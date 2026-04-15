@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5584999999999";
+const WHATSAPP_NUMBER = "5584996078928";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Olá! Gostaria de reservar um passeio nos Parrachos de Maracajaú!`;
 
 interface WhatsAppButtonProps {
