@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { products } from "@/data/products";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { ArrowLeft, Check } from "lucide-react";
+import { LinkClick } from "@/hooks/link";
 
 const PasseioDetalhe = () => {
   const { slug } = useParams();
@@ -12,7 +13,7 @@ const PasseioDetalhe = () => {
       <div className="flex min-h-screen items-center justify-center pt-20">
         <div className="text-center">
           <h1 className="mb-4 font-heading text-2xl font-bold">Passeio não encontrado</h1>
-          <Link to="/passeios" className="text-primary hover:underline">Ver todos os passeios</Link>
+          <LinkClick to="/passeios" className="text-primary hover:underline">Ver todos os passeios</LinkClick>
         </div>
       </div>
     );
@@ -33,9 +34,9 @@ const PasseioDetalhe = () => {
 
       <section className="py-16">
         <div className="container mx-auto max-w-4xl px-4">
-          <Link to="/passeios" className="mb-8 inline-flex items-center gap-2 text-sm text-primary hover:underline">
+          <LinkClick to="/passeios" className="mb-8 inline-flex items-center gap-2 text-sm text-primary hover:underline">
             <ArrowLeft className="h-4 w-4" /> Voltar aos passeios
-          </Link>
+          </LinkClick>
 
           <div className="grid gap-10 md:grid-cols-2">
             <div>

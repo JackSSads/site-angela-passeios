@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
 import type { Product } from "@/data/products";
 import WhatsAppButton from "./WhatsAppButton";
+import { LinkClick } from "@/hooks/link";
 
 const ProductCard = ({ product }: { product: Product }) => (
   <div className={`group relative overflow-hidden rounded-2xl bg-card shadow-card transition-all hover:shadow-card-hover ${product.featured ? "ring-2 ring-accent" : ""}`}>
@@ -37,12 +38,12 @@ const ProductCard = ({ product }: { product: Product }) => (
           message={`Olá! Quero reservar: ${product.name} (R$ ${product.promoPrice.toFixed(2)})`}
           className="flex-1 justify-center text-sm py-2.5"
         />
-        <Link
+        <LinkClick
           to={`/passeios/${product.slug}`}
           className="flex items-center rounded-lg border-2 border-primary px-4 py-2.5 font-heading text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
         >
           Detalhes
-        </Link>
+        </LinkClick>
       </div>
     </div>
   </div>

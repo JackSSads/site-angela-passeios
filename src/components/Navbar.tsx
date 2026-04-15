@@ -1,10 +1,12 @@
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+
+import { LinkClick } from "@/hooks/link";
 
 import Logo from "../assets/logo.png";
 
-const navLinks = [
+const navLinkClicks = [
   { to: "/", label: "Início" },
   { to: "/sobre", label: "Sobre" },
   { to: "/passeios", label: "Passeios" },
@@ -20,15 +22,15 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-40 h-[70px] bg-ocean-deep/95 backdrop-blur-md flex items-center justify-center border-b border-primary-foreground/10">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
-        <Link to="/" className="flex items-center gap-2 font-heading text-xl font-bold text-primary-foreground">
+        <LinkClick to="/" className="flex items-center gap-2 font-heading text-xl font-bold text-primary-foreground">
           <img src={Logo} alt="Logo" className="h-8" />
-          <span>Ângela <span className="text-accent">Parrachos</span></span>
-        </Link>
+          <span>Angelina <span className="text-accent">Mergulho</span></span>
+        </LinkClick>
 
         {/* Desktop */}
         <div className="hidden items-center gap-6 md:flex">
-          {navLinks.map((l) => (
-            <Link
+          {navLinkClicks.map((l) => (
+            <LinkClick
               key={l.to}
               to={l.to}
               className={`font-heading text-sm font-semibold transition-colors hover:text-accent ${
@@ -36,7 +38,7 @@ const Navbar = () => {
               }`}
             >
               {l.label}
-            </Link>
+            </LinkClick>
           ))}
         </div>
 
@@ -49,8 +51,8 @@ const Navbar = () => {
       {/* Mobile menu */}
       {open && (
         <div className="border-t border-primary-foreground/10 bg-ocean-deep/95 px-4 pb-4 md:hidden">
-          {navLinks.map((l) => (
-            <Link
+          {navLinkClicks.map((l) => (
+            <LinkClick
               key={l.to}
               to={l.to}
               onClick={() => setOpen(false)}
@@ -59,7 +61,7 @@ const Navbar = () => {
               }`}
             >
               {l.label}
-            </Link>
+            </LinkClick>
           ))}
         </div>
       )}

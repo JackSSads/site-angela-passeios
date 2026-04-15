@@ -1,7 +1,8 @@
 import { MapPin, Phone, Mail } from "lucide-react";
-import { Link } from "react-router-dom";
 
-import Logo from "../assets/logo.png";
+import { LinkClick } from "@/hooks/link";
+
+import Logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="bg-ocean-deep text-primary-foreground">
@@ -19,18 +20,31 @@ const Footer = () => (
         <div>
           <h4 className="mb-4 font-heading text-lg font-bold">Links</h4>
           <div className="flex flex-col gap-2 text-sm text-primary-foreground/70">
-            <Link to="/passeios" className="hover:text-accent">Passeios</Link>
-            <Link to="/sobre" className="hover:text-accent">Sobre</Link>
-            <Link to="/faq" className="hover:text-accent">FAQ</Link>
-            <Link to="/contato" className="hover:text-accent">Contato</Link>
+            <LinkClick to="/" label="Início" className="w-0 hover:text-accent" />
+            <LinkClick to="/passeios" label="Passeios" className="w-0 hover:text-accent" />
+            <LinkClick to="/sobre" label="Sobre" className="w-0 hover:text-accent" />
+            <LinkClick to="/faq" label="FAQ" className="w-0 hover:text-accent" />
+            <LinkClick to="/contato" label="Contato" className="w-0 hover:text-accent" />
           </div>
         </div>
         <div>
           <h4 className="mb-4 font-heading text-lg font-bold">Contato</h4>
           <div className="flex flex-col gap-3 text-sm text-primary-foreground/70">
-            <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-accent" />Maracajaú, Maxaranguape – RN</span>
-            <span className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" />(84) 9 9999-9999</span>
-            <span className="flex items-center gap-2"><Mail className="h-4 w-4 text-accent" />contato@Ângelaparrachos.com</span>
+            <LinkClick className="flex items-center gap-2">
+              <MapPin className="h-4 w-4 text-accent" />Maracajaú, Maxaranguape – RN
+            </LinkClick>
+
+            <LinkClick className="flex items-center gap-2">
+              <Phone className="h-4 w-4 text-accent" />(84) 9 9607-8928
+            </LinkClick>
+
+            <LinkClick className="flex items-center gap-2">
+              <Phone className="h-4 w-4 text-accent" />(84) 9 9931-5718
+            </LinkClick>
+
+            <LinkClick className="flex items-center gap-2">
+              <Mail className="h-4 w-4 text-accent" />contato@Ângelaparrachos.com
+            </LinkClick>
           </div>
         </div>
       </div>
