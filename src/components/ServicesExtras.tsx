@@ -1,4 +1,4 @@
-import { Star, Camera, Glasses, Wine } from "lucide-react";
+import { Star, Camera, Glasses, Wine, Sailboat } from "lucide-react";
 import SectionTitle from "./SectionTitle";
 
 const services = [
@@ -8,6 +8,12 @@ const services = [
     desc: "Experiência guiada por instrutor credenciado com equipamento completo.",
     benefits: ["Profissional certificado", "Equipamento completo", "~30 min de mergulho"],
     featured: true,
+  },
+  {
+    icon: Sailboat,
+    title: "Embarcação Privativa",
+    desc: "Passeio exclusivo para você e seu grupo, com conforto e privacidade.",
+    benefits: ["Serviço personalizado", "Itinerário flexível", "Capacidade para até 20 pessoas"],
   },
   {
     icon: Camera,
