@@ -24,7 +24,7 @@ const Sobre = () => (
             Os <strong className="text-foreground">Parrachos de Maracajaú</strong> são formações de corais localizadas a 7 km da costa, no município de Maxaranguape, a apenas 45 km de Natal – RN. Com águas cristalinas e vida marinha abundante, é o destino perfeito para quem busca contato com a natureza.
           </p>
           <p>
-            O passeio tem duração total de <strong className="text-foreground">2h30</strong>: são 30 minutos de navegação (5 milhas náuticas) até os parrachos, onde você terá <strong className="text-foreground">1h30</strong> para mergulhar e explorar as piscinas naturais, seguidos de 30 minutos de retorno.
+            O passeio tem duração total de <strong className="text-foreground">3h</strong>: são 20 minutos de navegação (5 milhas náuticas) até os parrachos, onde você terá <strong className="text-foreground">2h20</strong> para mergulhar e explorar as piscinas naturais, seguidos de 20 minutos de retorno.
           </p>
           <p>
             Nosso <strong className="text-foreground">catamarã é homologado pela Marinha do Brasil</strong>, com tripulação certificada e todos os equipamentos de segurança. Fornecemos máscara, snorkel e colete salva-vidas para todos os passageiros.
