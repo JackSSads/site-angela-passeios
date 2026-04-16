@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 const features = [
   { icon: Shield, title: "Segurança Total", desc: "Catamarã homologado pela Marinha do Brasil. Tripulação certificada e coletes salva-vidas para todos." },
   { icon: Leaf, title: "Sustentabilidade", desc: "Operação autorizada pelo IDEMA. Compromisso com a preservação dos recifes de coral." },
-  { icon: Clock, title: "Experiência Completa", desc: "2h30 de passeio com 30 min de ida, 1h30 nos parrachos e 30 min de volta." },
+  { icon: Clock, title: "Experiência Completa", desc: "3h de passeio com 20 min de ida, 2h20 nos parrachos e 20 min de volta." },
   { icon: Users, title: "Para Toda Família", desc: "Atividades para todas as idades. Equipamentos e acompanhamento profissional." },
 ];
 
