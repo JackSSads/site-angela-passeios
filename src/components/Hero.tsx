@@ -20,7 +20,7 @@ const Hero = () => (
         Mergulhe nos{" "}
         <span className="text-accent">Parrachos de Maracajaú</span>
       </h1>
-      <p className="mx-auto mb-8 max-w-2xl text-lg text-primary-foreground/90 md:text-xl">
+      <p className="mx-auto mb-8 max-w-2xl text-lg text-primary-foreground/90 md:text-xl border-primary-foreground/30 px-6 py-4 backdrop-blur-sm">
         Viva uma experiência única com mergulho guiado, catamarã homologado pela Marinha e as águas mais cristalinas do Brasil.
       </p>
       <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
