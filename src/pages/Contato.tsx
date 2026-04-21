@@ -30,7 +30,7 @@ const Contato = () => (
                 <Clock className="h-6 w-6 text-primary" />
                 <h3 className="font-heading text-lg font-bold text-foreground">Horários</h3>
               </div>
-              <p className="text-sm text-muted-foreground">Passeios saem diariamente às 8h, 10h e 13h (sujeito à maré).</p>
+              <p className="text-sm text-muted-foreground">Passeios saem diariamente de acordo com a tábua de maré.</p>
             </div>
             <div className="rounded-2xl bg-card p-6 shadow-card">
               <div className="mb-3 flex items-center gap-3">
@@ -44,7 +44,8 @@ const Contato = () => (
                 <Phone className="h-6 w-6 text-primary" />
                 <h3 className="font-heading text-lg font-bold text-foreground">Telefone</h3>
               </div>
-              <p className="text-sm text-muted-foreground">(84) 9 9999-9999</p>
+              <p className="text-sm text-muted-foreground">(84) 9 9607-8928</p>
+              <p className="text-sm text-muted-foreground">(84) 9 9931-5718</p>
             </div>
           </div>
         </div>
