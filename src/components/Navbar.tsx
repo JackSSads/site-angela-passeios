@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-40 bg-ocean-deep/95 backdrop-blur-md flex flex-col items-center justify-center border-b border-primary-foreground/10">
-      <p className="w-full text-white bg-ocean-medium text-sm flex items-center justify-center p-1 gap-1">
+      <p className="w-full text-white bg-ocean-medium text-sm font-semibold flex items-center justify-center p-2 gap-1">
         Entre em contado pelo WhatsApp
         <NavLink
           to="https://wa.me/5584999959793?text=Olá! Gostaria de fazer uma reserva para o passeio aos Parrachos Náutica"
