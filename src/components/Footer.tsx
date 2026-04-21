@@ -43,7 +43,7 @@ const Footer = () => (
             </LinkClick>
 
             <LinkClick className="flex items-center gap-2">
-              <Mail className="h-4 w-4 text-accent" />contato@Ângelaparrachos.com
+              <Mail className="h-4 w-4 text-accent" />angelajoseias@gmail.com
             </LinkClick>
           </div>
         </div>
