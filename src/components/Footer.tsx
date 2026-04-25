@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 
 import { LinkClick } from "@/hooks/link";
 
-import Logo from "@/assets/logo.png";
+import Logo from "@/assets/logo/logo.png";
 
 const Footer = () => (
   <footer className="bg-ocean-deep text-primary-foreground">

@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 
 import { LinkClick } from "@/hooks/link";
 
-import Logo from "../assets/logo.png";
+import Logo from "@/assets/logo/logo.png";
 import { NavLink } from "./NavLink";
 
 const navLinkClicks = [

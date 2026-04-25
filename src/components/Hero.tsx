@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-ocean.jpg";
+import heroImg from "@/assets/parrachos/parrachos.jpg";
 import WhatsAppButton from "./WhatsAppButton";
 import { ChevronDown } from "lucide-react";
 
