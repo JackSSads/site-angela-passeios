@@ -28,14 +28,18 @@ const ProductCard = ({ product }: { product: Product }) => (
     <div className="p-5">
       <h3 className="mb-2 font-heading text-xl font-bold text-foreground">{product.name}</h3>
       <p className="mb-4 text-sm text-muted-foreground">{product.shortDesc}</p>
-      <div className="mb-4 flex items-baseline gap-2">
-        <span className="text-sm text-muted-foreground line-through">R$ {product.price.toFixed(2)}</span>
-        <span className="font-heading text-2xl font-black text-primary">R$ {product.promoPrice.toFixed(2)}</span>
-      </div>
+      {product?.price ? (
+        <div className="mb-4 flex items-baseline gap-2">
+          <span className="text-sm text-muted-foreground line-through">R$ {product?.price.toFixed(2)}</span>
+          {product?.promoPrice ? (
+            <span className="font-heading text-2xl font-black text-primary">R$ {product?.promoPrice.toFixed(2)}</span>
+          ) : false}
+        </div>
+      ) : false}
       <div className="flex gap-2">
         <WhatsAppButton
           text="Reservar"
-          message={`Olá! Quero reservar: ${product.name} (R$ ${product.promoPrice.toFixed(2)})`}
+          message={`Olá! Quero reservar: ${product.name}`}
           className="flex-1 justify-center text-sm py-2.5"
         />
         <LinkClick
