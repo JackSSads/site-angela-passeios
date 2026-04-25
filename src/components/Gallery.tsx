@@ -1,22 +1,17 @@
-import catamaraImg from "@/assets/catamara.jpg";
-import parrachosImg from "@/assets/parrachos.jpg";
-import mergulhoImg from "@/assets/mergulho-cilindro.jpg";
-import quadricicloImg from "@/assets/quadriciclo.jpg";
 import SectionTitle from "./SectionTitle";
 
-const images = [
-  { src: catamaraImg, label: "Catamarã homologado" },
-  { src: parrachosImg, label: "Parrachos de Maracajaú" },
-  { src: mergulhoImg, label: "Mergulho com instrutor" },
-  { src: quadricicloImg, label: "Aventura de quadriciclo" },
-];
+import { Images } from "@/data/products";
 
-const Gallery = () => (
+interface GalleryProps {
+  image_list: Images[];
+};
+
+const Gallery = ({ image_list }: GalleryProps) => (
   <section className="py-20">
     <div className="container mx-auto px-4">
       <SectionTitle badge="Galeria" title="Momentos Inesquecíveis" subtitle="Confira um pouco do que te espera em Maracajaú." />
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {images.map((img) => (
+        {image_list.map((img) => (
           <div key={img.label} className="group relative overflow-hidden rounded-2xl">
             <img
               src={img.src}
