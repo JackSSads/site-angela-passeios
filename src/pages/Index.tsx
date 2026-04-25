@@ -7,6 +7,7 @@ import DetailCards from "@/components/DetailCards";
 import SectionTitle from "@/components/SectionTitle";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { products } from "@/data/products";
+import { images } from "@/data/products";
 
 const Index = () => (
   <>
@@ -31,7 +32,7 @@ const Index = () => (
     <Features />
     <ServicesExtras />
     <DetailCards />
-    <Gallery />
+    <Gallery image_list={images}/>
 
     {/* CTA Final */}
     <section className="bg-gradient-ocean py-20 text-center text-primary-foreground">

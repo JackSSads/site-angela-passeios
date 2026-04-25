@@ -3,6 +3,7 @@ import { products } from "@/data/products";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { ArrowLeft, Check } from "lucide-react";
 import { LinkClick } from "@/hooks/link";
+import Gallery from "@/components/Gallery";
 
 const PasseioDetalhe = () => {
   const { slug } = useParams();
@@ -17,7 +18,7 @@ const PasseioDetalhe = () => {
         </div>
       </div>
     );
-  }
+  };
 
   return (
     <>
@@ -74,19 +75,37 @@ const PasseioDetalhe = () => {
 
             <div className="rounded-2xl bg-card p-8 shadow-card">
               <div className="mb-6 text-center">
-                <span className="text-lg text-muted-foreground line-through">R$ {product.price.toFixed(2)}</span>
-                <div className="font-heading text-4xl font-black text-primary">R$ {product.promoPrice.toFixed(2)}</div>
-                <span className="text-sm text-secondary font-semibold">Preço promocional</span>
+                {product?.price ? (
+                  < span className="text-lg text-muted-foreground line-through">R$ {product?.price.toFixed(2)}</span>
+                ) : (
+                  <div>
+                    <span className="text-md text-muted-foreground">
+                      Valores, horários, quantidade de passageiros e afins, devem ser ajustados na hora da reserva.
+                    </span>
+                  </div>
+                )}
+
+                {product.promoPrice ? (
+                  <>
+                    <div className="font-heading text-4xl font-black text-primary">R$ {product?.promoPrice.toFixed(2)}</div>
+                    <span className="text-sm text-secondary font-semibold">Preço promocional</span>
+                  </>
+                ) : false}
+
               </div>
               <WhatsAppButton
                 text="Reservar Agora"
-                message={`Olá! Quero reservar: ${product.name} (R$ ${product.promoPrice.toFixed(2)})`}
+                message={`Olá! Quero reservar: ${product.name}`}
                 className="w-full justify-center text-lg py-4"
               />
             </div>
+
           </div>
         </div>
-      </section>
+      </section >
+      <div className="w-full">
+        <Gallery image_list={product.images} />
+      </div>
     </>
   );
 };
