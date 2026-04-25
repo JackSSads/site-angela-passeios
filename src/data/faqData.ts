@@ -4,9 +4,9 @@ export const faqData = [
   { q: "Qual é o destino do passeio?", a: "Os Parrachos de Maracajaú, formações de corais a 7 km da costa, com piscinas naturais de águas cristalinas." },
   { q: "Como faço para reservar?", a: "Entre em contato pelo WhatsApp! É rápido e fácil. Nossa equipe confirma sua reserva na hora." },
   { q: "Crianças podem participar?", a: "Sim! O mergulho livre é para todas as idades. O mergulho com cilindro é a partir de 10 anos." },
-  { q: "Quanto tempo dura o passeio?", a: "Aproximadamente 2h30: 30 min de ida, 1h30 nos parrachos e 30 min de volta." },
+  { q: "Quanto tempo dura o passeio?", a: "Aproximadamente 3h. 20 min de ida, 2h20 nos parrachos e 20 min de volta." },
   { q: "O que está incluso no passeio?", a: "Máscara, snorkel, colete salva-vidas e acompanhamento da equipe. Tudo para sua segurança e conforto." },
   { q: "Precisa saber nadar?", a: "Não! Os coletes salva-vidas garantem sua segurança. A equipe acompanha todos durante o mergulho." },
-  { q: "Qual a melhor época para visitar?", a: "De outubro a março, quando a maré está mais baixa e a visibilidade é máxima." },
-  { q: "Qual a estrutura no local?", a: "Contamos com catamarã homologado, banheiros, bar a bordo e equipe treinada para atendimento." },
+  { q: "Qual a melhor época para visitar?", a: "De Novembro a Março, quando a maré está mais baixa e a visibilidade é máxima." },
+  { q: "Qual a estrutura no local?", a: "Contamos com catamarã homologado, bar a bordo e equipe treinada para atendimento." },
 ];

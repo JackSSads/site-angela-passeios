@@ -3,11 +3,11 @@ import SectionTitle from "./SectionTitle";
 
 const details = [
   { icon: Ship, title: "Embarcação", desc: "Catamarã homologado pela Marinha do Brasil" },
-  { icon: Users, title: "Tripulação", desc: "Equipe qualificada e certificada" },
+  { icon: Users, title: "Tripulação", desc: "Equipe qualificada e certificada pela Marinha do Brasil" },
   { icon: Clock, title: "Duração", desc: "3h de experiência completa" },
   { icon: MapPin, title: "Localização", desc: "Maracajaú, Maxaranguape – RN" },
   { icon: TreePine, title: "Preservação", desc: "Operação sustentável autorizada pelo IDEMA" },
-  { icon: Wrench, title: "Equipamentos", desc: "Máscara, snorkel e colete inclusos" },
+  { icon: Wrench, title: "Equipamentos", desc: "Máscara, snorkel e colete salva-vidas inclusos" },
 ];
 
 const DetailCards = () => (
