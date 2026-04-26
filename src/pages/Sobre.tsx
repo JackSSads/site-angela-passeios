@@ -1,7 +1,7 @@
 import SectionTitle from "@/components/SectionTitle";
 import DetailCards from "@/components/DetailCards";
 import Features from "@/components/Features";
-import heroImg from "@/assets/hero-ocean.jpg";
+import heroImg from "@/assets/parrachos/f_aerea.jpg ";
 
 const Sobre = () => (
   <>
