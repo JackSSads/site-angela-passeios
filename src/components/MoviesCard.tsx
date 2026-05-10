@@ -33,14 +33,6 @@ const MoviesCarrossel = () => {
     );
   };
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 30000);
-
-    return () => clearInterval(interval);
-  }, []);
-
   const getIndex = (offset) => {
     return (current + offset + videos.length) % videos.length;
   };
