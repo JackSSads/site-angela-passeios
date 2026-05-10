@@ -6,7 +6,7 @@ import ServicesExtras from "@/components/ServicesExtras";
 import DetailCards from "@/components/DetailCards";
 import SectionTitle from "@/components/SectionTitle";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import MoviesCard from "@/components/MoviesCard";
+import MoviesCarrossel from "@/components/MoviesCard";
 import { products } from "@/data/products";
 import { images } from "@/data/products";
 
@@ -34,7 +34,7 @@ const Index = () => (
     <ServicesExtras />
     <DetailCards />
     <Gallery image_list={images}/>
-    <MoviesCard />
+    <MoviesCarrossel />
 
     {/* CTA Final */}
     <section className="bg-gradient-ocean py-20 text-center text-primary-foreground">
