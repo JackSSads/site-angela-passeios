@@ -39,6 +39,10 @@ import catamara04 from "@/assets/catamara/catamara04.jpeg"
 import catamara05 from "@/assets/catamara/catamara05.jpeg"
 import catamara06 from "@/assets/catamara/catamara06.jpeg"
 
+// Bar a Bordo
+import bar01 from "@/assets/drink/drink.jpeg"
+import menu from "@/assets/drink/menu.jpeg"
+
 export interface Images {
   src: string;
   label: string;
@@ -62,7 +66,7 @@ export const products: Product[] = [
   {
     slug: "mergulho-cilindro",
     name: "Mergulho com Instrutor",
-    category: "Destaque",
+    category: "Aventure-se",
     price: 180,
     promoPrice: 160,
     image: cilindro09,
@@ -175,11 +179,33 @@ export const products: Product[] = [
       { src: catamara05, label: "" },
       { src: catamara06, label: "" },
     ]
+  },
+  {
+    slug: "bar-a-bordo",
+    name: "Bar a Bordo",
+    category: "Bar Exclusivo",
+    image: menu,
+    shortDesc: "Serviço de bar exclusivo a bordo do catamarã para uma experiência ainda mais especial nos parrachos.",
+    description: [
+      "Serviço de bar exclusivo a bordo do catamarã",
+      "Bebidas selecionadas para complementar sua experiência nos parrachos",
+      "Perfeito para casais, famílias ou grupos fechados que buscam um toque especial",
+    ],
+    benefits: [
+      "Bebidas selecionadas",
+      "Serviço personalizado",
+      "Experiência exclusiva",
+    ],
+    images: [
+      { src: bar01, label: "" },
+      { src: menu, label: "" },
+    ]
   }
 ];
 
 export const images: Images[] = [
-  { src: catamara01, label: "Catamarã homologado" },
+  { src: bar01, label: "Bar a Bordo" },
+  { src: menu, label: "Menu de Bebidas" },
   { src: parrachos01, label: "Parrachos de Maracajaú" },
   { src: cilindro01, label: "Mergulho com instrutor" },
   { src: quad01, label: "Aventura de quadriciclo" },
