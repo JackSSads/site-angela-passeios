@@ -1,11 +1,11 @@
-import heroImg from "@/assets/parrachos/parrachos.jpg";
+import parrachos01 from "@/assets/parrachos/f_aerea01.jpg";
 import WhatsAppButton from "./WhatsAppButton";
 import { ChevronDown } from "lucide-react";
 
 const Hero = () => (
   <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
     <img
-      src={heroImg}
+      src={parrachos01}
       alt="Vista aérea dos Parrachos de Maracajaú com catamarã"
       className="absolute inset-0 h-full w-full object-cover"
       width={1920}
