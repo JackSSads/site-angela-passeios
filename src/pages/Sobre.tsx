@@ -1,13 +1,13 @@
 import SectionTitle from "@/components/SectionTitle";
 import DetailCards from "@/components/DetailCards";
 import Features from "@/components/Features";
-import heroImg from "@/assets/parrachos/f_aerea.jpg";
+import parrachos01 from "@/assets/parrachos/f_aerea01.jpg";
 
 const Sobre = () => (
   <>
     {/* Hero */}
-    <section className="relative flex h-[50vh] items-center justify-center overflow-hidden">
-      <img src={heroImg} alt="Parrachos de Maracajaú" className="absolute inset-0 h-full w-full object-cover" />
+    <section className="relative flex mt-[5rem] h-[40vh] items-center justify-center overflow-hidden">
+      <img src={parrachos01} alt="Parrachos de Maracajaú" className="absolute inset-0 h-full w-full object-cover" />
       <div className="absolute inset-0 bg-gradient-hero" />
       <div className="relative z-10 text-center">
         <h1 className="font-heading text-4xl font-black text-primary-foreground md:text-5xl">Sobre o Passeio</h1>

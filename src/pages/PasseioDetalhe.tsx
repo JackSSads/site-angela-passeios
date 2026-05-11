@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { products } from "@/data/products";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { ArrowLeft, Check } from "lucide-react";

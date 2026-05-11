@@ -1,12 +1,13 @@
 import { MapPin, Clock, Phone } from "lucide-react";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import SectionTitle from "@/components/SectionTitle";
+import parrachos02 from "@/assets/parrachos/f_aerea02.jpg";
 
 const Contato = () => (
   <>
-    <section className="bg-gradient-ocean pb-20 pt-32">
-      <div className="container mx-auto px-4 text-center">
-        <h1 className="font-heading text-4xl font-black text-primary-foreground md:text-5xl">Contato & Reservas</h1>
+    <section className="relative flex mt-[5rem] h-[40vh] items-center justify-center overflow-hidden">
+      <img src={parrachos02} alt="Parrachos de Maracajaú" className="absolute inset-0 h-full w-full object-cover" />
+      <div className="absolute inset-0 bg-gradient-hero" />
+      <div className="relative z-10 text-center">        <h1 className="font-heading text-4xl font-black text-primary-foreground md:text-5xl">Contato & Reservas</h1>
         <p className="mt-3 text-lg text-primary-foreground/80">Reserve agora pelo WhatsApp</p>
       </div>
     </section>
