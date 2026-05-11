@@ -15,6 +15,8 @@ import FaqPage from "./pages/FaqPage";
 import Contato from "./pages/Contato";
 import NotFound from "./pages/NotFound";
 
+import { ToTop } from "@/components/ToTop";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -37,7 +39,7 @@ const App = () => (
           </Routes>
         </main>
         <Footer />
-        <WhatsAppButton variant="floating" />
+        <ToTop />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
