@@ -16,7 +16,12 @@ const videos = [
   {
     id: 3,
     title: "Passeio",
-    link: "https://www.youtube.com/embed/gSqJyV5Z0gI",
+    link: "https://www.youtube.com/embed/WHH49htVMVM",
+  },
+  {
+    id: 4,
+    title: "Passeio",
+    link: "https://www.youtube.com/embed/pUsIX8AUMwE",
   },
 ];
 
