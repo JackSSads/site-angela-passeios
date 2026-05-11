@@ -1,8 +1,6 @@
-import mergulhoCilindro from "@/assets/cilindro/cilindro02.jpg";
-import mergulhoLivre from "@/assets/snorkel/snorkel02.jpg";
-import quadriciclo from "@/assets/quad/familly-quad.jpeg";
-import catamara from "@/assets/ship/frontal-three.jpeg";
-import parrachos from "@/assets/parrachos/f_aerea.jpg"
+import parrachos01 from "@/assets/parrachos/f_aerea01.jpg";
+import parrachos02 from "@/assets/parrachos/f_aerea02.jpg";
+import parrachos03 from "@/assets/parrachos/f_aerea03.jpg";
 
 // Cilindro
 import cilindro01 from "@/assets/cilindro/cilindro01.jpg";
@@ -13,37 +11,33 @@ import cilindro05 from "@/assets/cilindro/cilindro05.jpg";
 import cilindro06 from "@/assets/cilindro/cilindro06.jpg";
 import cilindro07 from "@/assets/cilindro/cilindro07.jpg";
 import cilindro08 from "@/assets/cilindro/cilindro08.jpg";
+import cilindro09 from "@/assets/cilindro/cilindro09.jpeg";
+import cilindro10 from "@/assets/cilindro/cilindro10.jpeg";
 
-// Mergulho
+// Snorkel
 import snorkel01 from "@/assets/snorkel/snorkel01.jpg"
 import snorkel02 from "@/assets/snorkel/snorkel02.jpg"
 import snorkel03 from "@/assets/snorkel/snorkel03.jpg"
-import snorkel04 from "@/assets/dive/free-dive-tow.jpeg"
-import snorkel05 from "@/assets/dive/free-dive.jpeg"
+import snorkel04 from "@/assets/snorkel/snorkel04.jpeg"
+import snorkel05 from "@/assets/snorkel/snorkel05.jpeg"
 
 // Quadriciclo
-import quad01 from "@/assets/quadriciclo/quadriciclo01.png"
-import quad02 from "@/assets/quadriciclo/quadriciclo02.png"
-import quad03 from "@/assets/quadriciclo/quadriciclo03.png"
-import quad04 from "@/assets/quadriciclo/quadriciclo04.png"
-import quad05 from "@/assets/quadriciclo/quadriciclo05.png"
-import quad06 from "@/assets/quadriciclo/quadriciclo06.png"
-import quad07 from "@/assets/quadriciclo/quadriciclo07.png"
-import quad08 from "@/assets/quadriciclo/quadriciclo08.png"
-import quad09 from "@/assets/quadriciclo/quadriciclo09.png"
-import quad10 from "@/assets/quadriciclo/quadriciclo10.png"
-import quad11 from "@/assets/quadriciclo/quadriciclo11.png"
-import quad12 from "@/assets/quad/familly-quad.jpeg"
-import quad13 from "@/assets/quad/in-water-quad.jpeg"
-import quad14 from "@/assets/quad/quad.jpeg"
+import quad01 from "@/assets/quadriciclo/quad01.jpeg"
+import quad02 from "@/assets/quadriciclo/quad02.jpeg"
+import quad03 from "@/assets/quadriciclo/quad03.jpeg"
+import quad04 from "@/assets/quadriciclo/quad04.jpeg"
+import quad05 from "@/assets/quadriciclo/quad05.jpeg"
+import quad06 from "@/assets/quadriciclo/quad06.jpeg"
+import quad07 from "@/assets/quadriciclo/quad07.jpeg"
+import quad08 from "@/assets/quadriciclo/quad08.jpeg"
 
 // Catamara
-import catamara01 from "@/assets/catamara/catamara.jpg"
+import catamara01 from "@/assets/catamara/catamara01.jpg"
 import catamara02 from "@/assets/catamara/catamara02.jpg"
-import catamara03 from "@/assets/ship/frontal-three.jpeg"
-import catamara04 from "@/assets/ship/frontal.jpeg"
-import catamara05 from "@/assets/ship/one.jpeg"
-import catamara06 from "@/assets/ship/three.jpeg"
+import catamara03 from "@/assets/catamara/catamara03.jpeg"
+import catamara04 from "@/assets/catamara/catamara04.jpeg"
+import catamara05 from "@/assets/catamara/catamara05.jpeg"
+import catamara06 from "@/assets/catamara/catamara06.jpeg"
 
 export interface Images {
   src: string;
@@ -71,7 +65,7 @@ export const products: Product[] = [
     category: "Destaque",
     price: 180,
     promoPrice: 160,
-    image: mergulhoCilindro,
+    image: cilindro09,
     shortDesc: "Mergulho com cilindro guiado por profissional credenciado nos parrachos.",
     description: [
       "Mergulho com cilindro guiado por profissional credenciado",
@@ -91,7 +85,6 @@ export const products: Product[] = [
       { src: cilindro03, label: "" },
       { src: cilindro04, label: "" },
       { src: cilindro05, label: "" },
-      { src: cilindro06, label: "" },
       { src: cilindro07, label: "" },
       { src: cilindro08, label: "" },
     ]
@@ -102,7 +95,7 @@ export const products: Product[] = [
     category: "Popular",
     price: 120,
     promoPrice: 90,
-    image: mergulhoLivre,
+    image: snorkel01,
     shortDesc: "Passeio completo de catamarã com mergulho livre e snorkel nos parrachos.",
     description: [
       "Passeio completo de catamarã até os parrachos",
@@ -129,7 +122,7 @@ export const products: Product[] = [
     category: "Aventura",
     price: 170,
     promoPrice: 120,
-    image: quadriciclo,
+    image: quad01,
     shortDesc: "Trilhas e paisagens naturais deslumbrantes em quadriciclo.",
     description: [
       "Trilhas por paisagens naturais incríveis",
@@ -153,20 +146,14 @@ export const products: Product[] = [
       { src: quad05, label: "" },
       { src: quad06, label: "" },
       { src: quad07, label: "" },
-      { src: quad08, label: "" },
-      { src: quad09, label: "" },
-      { src: quad10, label: "" },
-      { src: quad11, label: "" },
-      { src: quad12, label: "" },
-      { src: quad13, label: "" },
-      { src: quad14, label: "" },
+      { src: quad08, label: "" }
     ]
   },
   {
     slug: "exclusivo",
     name: "Passeio Exclusivo",
     category: "Catamarã Exclusivo",
-    image: catamara,
+    image: catamara04,
     shortDesc: "Passeio privativo de catamarã com conforto e exclusividade nos parrachos.",
     description: [
       "Passeio privativo de catamarã até os parrachos de Maracajaú",
@@ -192,8 +179,8 @@ export const products: Product[] = [
 ];
 
 export const images: Images[] = [
-  { src: catamara, label: "Catamarã homologado" },
-  { src: parrachos, label: "Parrachos de Maracajaú" },
-  { src: mergulhoCilindro, label: "Mergulho com instrutor" },
-  { src: quadriciclo, label: "Aventura de quadriciclo" },
+  { src: catamara01, label: "Catamarã homologado" },
+  { src: parrachos01, label: "Parrachos de Maracajaú" },
+  { src: cilindro01, label: "Mergulho com instrutor" },
+  { src: quad01, label: "Aventura de quadriciclo" },
 ];
