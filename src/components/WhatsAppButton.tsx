@@ -24,7 +24,6 @@ const WhatsAppButton = ({ text = "Reservar pelo WhatsApp", message, className = 
         className="rounded-full bg-green-500 p-2 text-primary-foreground shadow-lg transition-transform hover:scale-110 hover:bg-green-600"
       >
         <MessageCircle className="h-6 w-6" />
-        <span className="hidden sm:inline">{text}</span>
       </a>
     );
   }
