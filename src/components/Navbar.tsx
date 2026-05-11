@@ -25,10 +25,10 @@ const Navbar = () => {
       <p className="w-full text-white bg-ocean-medium text-sm font-semibold flex items-center justify-center p-2 gap-1">
         Entre em contado pelo WhatsApp
         <NavLink
-          to="https://wa.me/5584999959793?text=Olá! Gostaria de fazer uma reserva para o passeio aos Parrachos Náutica"
+          to="https://wa.me/5584996078928?text=Olá! Gostaria de fazer uma reserva para o passeio aos Parrachos Náutica"
           className="underline"
           target="_blank"
-        >(84) 9 9995-9793</NavLink>
+        >(84) 9 9607-8928</NavLink>
       </p>
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <LinkClick to="/" className="flex items-center gap-2 font-heading text-xl font-bold text-primary-foreground">
