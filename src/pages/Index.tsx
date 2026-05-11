@@ -6,7 +6,7 @@ import ServicesExtras from "@/components/ServicesExtras";
 import DetailCards from "@/components/DetailCards";
 import SectionTitle from "@/components/SectionTitle";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import MoviesCarrossel from "@/components/MoviesCard";
+import MoviesCarrossel from "@/components/MoviesCarrossel";
 import { products } from "@/data/products";
 import { images } from "@/data/products";
 
