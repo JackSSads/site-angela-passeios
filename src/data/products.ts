@@ -200,6 +200,26 @@ export const products: Product[] = [
       { src: bar01, label: "" },
       { src: menu, label: "" },
     ]
+  },
+  {
+    slug: "mascara-full-face",
+    name: "Máscara Full Face",
+    category: "Equipamentos",
+    image: snorkel04,
+    shortDesc: "Máscara full face de qualidade para mergulho e snorkel.",
+    description: [
+      "Máscara full face de qualidade para mergulho e snorkel",
+      "Ideal para iniciantes e experientes",
+      "Perfeito para explorar o mundo subaquático com conforto e segurança",
+    ],
+    benefits: [
+      "Máscara de qualidade",
+      "Conforto e segurança",
+      "Ideal para todos os níveis de experiência",
+    ],
+    images: [
+      { src: snorkel04, label: "" },
+    ]
   }
 ];
 
