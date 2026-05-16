@@ -30,6 +30,7 @@ import quad05 from "@/assets/quadriciclo/quad05.jpeg"
 import quad06 from "@/assets/quadriciclo/quad06.jpeg"
 import quad07 from "@/assets/quadriciclo/quad07.jpeg"
 import quad08 from "@/assets/quadriciclo/quad08.jpeg"
+import quad09 from "@/assets/quadriciclo/quad09.jpeg"
 
 // Catamara
 import catamara01 from "@/assets/catamara/catamara01.jpg"
@@ -126,7 +127,7 @@ export const products: Product[] = [
     category: "Aventura",
     price: 170,
     promoPrice: 120,
-    image: quad01,
+    image: quad09,
     shortDesc: "Trilhas e paisagens naturais deslumbrantes em quadriciclo.",
     description: [
       "Trilhas por paisagens naturais incríveis",
