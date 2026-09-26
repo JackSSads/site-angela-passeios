@@ -68,8 +68,8 @@ export const products: Product[] = [
     slug: "mergulho-cilindro",
     name: "Mergulho com Instrutor",
     category: "Aventure-se",
-    price: 200,
-    promoPrice: 220,
+    price: 220,
+    promoPrice: 200,
     image: cilindro09,
     shortDesc: "Mergulho com cilindro guiado por profissional credenciado nos parrachos.",
     description: [
