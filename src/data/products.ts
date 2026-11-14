@@ -99,7 +99,7 @@ export const products: Product[] = [
     name: "Mergulho Livre + Catamarã",
     category: "Popular",
     price: 120,
-    promoPrice: 90,
+    promoPrice: 100,
     image: snorkel01,
     shortDesc: "Passeio completo de catamarã com mergulho livre e snorkel nos parrachos.",
     description: [
